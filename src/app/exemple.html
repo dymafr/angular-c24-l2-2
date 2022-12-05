@@ -1,0 +1,15 @@
+<mat-button-toggle-group [(ngModel)]="optionSelectionnee">
+  <mat-button-toggle value="gauche">
+    <mat-icon>format_align_left</mat-icon>
+  </mat-button-toggle>
+  <mat-button-toggle value="centre">
+    <mat-icon>format_align_center</mat-icon>
+  </mat-button-toggle>
+  <mat-button-toggle value="droit">
+    <mat-icon>format_align_right</mat-icon>
+  </mat-button-toggle>
+  <mat-button-toggle value="justifié">
+    <mat-icon>format_align_justify</mat-icon>
+  </mat-button-toggle>
+</mat-button-toggle-group>
+<div class="selectionne">Sélectionné : {{optionSelectionnee}}</div>
